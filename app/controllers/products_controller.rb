@@ -8,7 +8,7 @@ class ProductsController < ApplicationController
 
 
   def create
-    #binding.pry
+    binding.pry
     redirect_to products_path
   end
 
